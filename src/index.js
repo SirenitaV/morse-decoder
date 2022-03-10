@@ -53,31 +53,9 @@ function decode(expr) {
         else {
           decodedString = `${decodedString} `;  
         }        
-        
-        
-        //console.log(decodedString);
         i = i + 10;
-        // for (let entry of MORSE_TABLE) {
-        //     console.log(entry);
-        // }
-        // for (let j = 0; j < Object.keys(MORSE_TABLE); j ++) {
-        //   if(MORSE_TABLE[j] === morseExpr) {
-        //       decodedString = `${decodedString}${MORSE_TABLE[j]}`;
-        //       //console.log(morseExpr)
-        //       console.log(MORSE_TABLE[j]);
-        //       j = j + 1;
-        //   }
-        //   else {
-        //      j = j + 1; 
-        //   }            
-        // }
-        
-        
-        
     }
     return decodedString;
-    
-    //console.log(Object.values(MORSE_TABLE));
     
 }
 
